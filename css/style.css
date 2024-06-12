@@ -1,0 +1,112 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #fff5e1;
+  color: #0c1844;
+}
+
+header {
+  background-color: #c80036;
+  color: #fff5e1;
+  padding: 10px 0;
+  text-align: center;
+}
+
+nav ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+nav ul li {
+  display: inline;
+  margin: 0 15px;
+}
+
+nav ul li a {
+  color: #fff5e1;
+  text-decoration: none;
+}
+
+main {
+  margin: 20px;
+  padding: 20px;
+  background-color: #fff;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.form-section {
+  max-width: 600px;
+  margin: auto;
+}
+
+form label {
+  display: block;
+  margin: 10px 0 5px;
+}
+
+form input,
+form select {
+  width: 100%;
+  padding: 8px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+form select {
+  height: auto;
+}
+
+form button {
+  padding: 10px 20px;
+  background-color: #ff6969;
+  color: #fff5e1;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+form button:hover {
+  background-color: #c80036;
+}
+
+footer {
+  text-align: center;
+  padding: 20px;
+  background-color: #c80036;
+  color: #fff5e1;
+  position: fixed;
+  width: 100%;
+  bottom: 0;
+}
+
+.patients-section {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.patient-card {
+  background-color: #ff6969;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  margin: 10px;
+  padding: 15px;
+  width: 200px;
+  text-align: center;
+  color: #fff5e1;
+}
+
+.patient-card img {
+  border-radius: 50%;
+  width: 100px;
+  height: 100px;
+}
+
+.patient-card p {
+  margin: 5px 0;
+}
