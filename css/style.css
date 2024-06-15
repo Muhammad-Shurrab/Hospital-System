@@ -77,7 +77,6 @@ footer {
   padding: 20px;
   background-color: #c80036;
   color: #fff5e1;
-  position: fixed;
   width: 100%;
   bottom: 0;
 }
@@ -109,4 +108,51 @@ footer {
 
 .patient-card p {
   margin: 5px 0;
+}
+
+.card {
+  width: 300px;
+  padding: 20px;
+  margin: 20px;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  background-color: #fff;
+  font-family: Arial, sans-serif;
+}
+
+.card img {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  display: block;
+  margin: 0 auto 20px auto;
+}
+
+.card h2 {
+  font-size: 24px;
+  text-align: center;
+  color: #333;
+  margin: 10px 0;
+}
+
+.card p {
+  font-size: 16px;
+  color: #666;
+  margin: 5px 0;
+}
+
+.card p:first-of-type {
+  margin-top: 10px;
+}
+
+.card p:last-of-type {
+  margin-bottom: 0;
+}
+
+.cards {
+  display: grid;
+  width: 1200px;
+  margin: auto;
+  grid-template-columns: repeat(3, 1fr);
 }
